@@ -1,2 +1,1 @@
 git+https://codebase.helmholtz.cloud/pvcomb/nomad-pvcomb.git@develop
-pycurl
