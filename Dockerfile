@@ -3,6 +3,6 @@ USER root
 RUN apt-get update
 RUN apt-get -y install git
 USER nomad
-RUN pip install pycurl
+RUN pip install pycurl --no-binary :all:
 COPY plugins.txt plugins.txt
 RUN pip install -r plugins.txt
